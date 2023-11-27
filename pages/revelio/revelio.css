@@ -1,4 +1,14 @@
-img {
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('revelio-images/papel11.png' );
+  background-size: cover;
+  color: rgb(247, 246, 246);
+}
+
+.img__filme {
     transition: opacity 0.3s ease-in-out;/* Adiciona transição suave */
     width: 200px;
     height: 250px;
@@ -8,29 +18,25 @@ img {
     border: 2px solid transparent /* Define uma borda transparente inicial */
 }
 
-
-img:hover {
+.img__filme:hover {
     transform: scale(1.2);/*Aumenta o tamanho da imagem quando o mouse passa por cima*/
     opacity: 0.9;/*Altera a opacidade quando o mouse passa por cima*/
     border-color: #968423; /* Adiciona uma borda quando o mouse passa por cima */
 }
 
-
-
-
-body {
-    background-image: url('revelio-images/papel11.png' );
-    background-size: cover;
-    color: rgb(247, 246, 246);
+.header--nav--img {
+  width: 50px;
 }
 
-.carousel-container {
+
+
+.filmes-container {
     overflow: hidden; /* Esconde o conteúdo que ultrapassa */
     width: 100%; /* Largura máxima para o contêiner */
     position: relative;
   }
   
-  .carousel {
+  .filmes {
     display: flex; /* Usa flexbox para posicionar as imagens */
     transition: transform 0.5s ease; /* Adiciona uma transição suave */
     /*max-width: 10000px;  Largura máxima do carrossel */
@@ -57,12 +63,12 @@ body {
     right: 0;
   }
 
-  .item {
+  .filmes__item {
     text-align: center;
   
   }
 
-  .item p {
+  .filmes__item p {
     margin-top: 5px;
     font-size: 14px;
   }
