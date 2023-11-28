@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url('revelio-images/papel11.png' );
+  background-image: url('/images/background_revelio.png' );
   background-size: cover;
   color: rgb(247, 246, 246);
 }
