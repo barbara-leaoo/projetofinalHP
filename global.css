@@ -17,7 +17,7 @@
 .head--nav--item{
     color: #FFF;
     font-family: Julee;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -29,4 +29,20 @@
     height: 15px;
     transform: rotate(-45deg);
     flex-shrink: 0;}
+    
 
+.container--main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main--image{
+    width: 100%;
+     }
+
+.main--image--logo{
+    width: 70%;    
+    position: absolute;
+    margin: 35%;
+    }
