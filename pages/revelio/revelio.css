@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-image: url('/images/background_revelio.png' );
+  background-color: black;
   background-size: cover;
   color: rgb(247, 246, 246);
+}
+
+.vira__tempo{
+  margin-top: 5%;
+  margin-left: 500px;
 }
 
 .img__filme {
@@ -71,4 +77,19 @@ body {
   .filmes__item p {
     margin-top: 5px;
     font-size: 14px;
+  }
+
+  .img__revelio{
+    margin-left: 500px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .img__bastidor {
+    border-radius: 30px;
+    width: 700px;
+  }
+
+  .txt__bastidor {
+    text-align: left;
   }
