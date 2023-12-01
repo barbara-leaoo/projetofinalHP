@@ -30,3 +30,10 @@
     transform: rotate(-45deg);
     flex-shrink: 0;}
     
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+
