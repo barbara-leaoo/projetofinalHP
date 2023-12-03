@@ -30,6 +30,9 @@
     transform: rotate(-45deg);
     flex-shrink: 0;}
     
+.header--primario a:hover{
+        background: rgb(75, 56, 56);
+}
 
 .container--main {
     width: 100%;
