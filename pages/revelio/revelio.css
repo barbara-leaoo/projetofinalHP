@@ -1,6 +1,17 @@
 *{
   padding-top: 0px;
   margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #070707, rgb(4, 20, 36));
+
+  
 }
 
 .header--primario {
@@ -28,12 +39,9 @@
   width: 15px;
   height: 15px;
   transform: rotate(-45deg);
-  flex-shrink: 0;}
+  flex-shrink: 0;
+}
 
-  .novo-background {
-    background-color: black;
-    color: white;
-  }
 .header--primario a:hover{
     background: rgb(75, 56, 56);
   }
@@ -41,7 +49,11 @@
 
 .vira__tempo{
   margin-top: 5%;
-  margin-left: 500px;
+  margin-left: 600px;
+}
+
+.novo-background {
+  color: white;
 }
 
 .img__filme {
@@ -104,16 +116,98 @@
   }
 
   .img__revelio{
-    margin-left: 500px;
-    margin-bottom: 3%;
+    margin-left: 600px;
+    /* margin-bottom: 3%; */
     margin-top: 3%;
+    
   }
 
-  .img__bastidor {
-    border-radius: 30px;
-    width: 700px;
-  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
 
-  .txt__bastidor {
-    text-align: left;
-  }
+.container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,.15);
+    background: white;
+    transition: .5s;
+}
+
+.container .card:hover {
+    height: 400px;
+
+}
+
+.container .card .caixaImg {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .5s;
+
+
+}
+
+.container .card .caixaImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .conteudo {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    overflow: hidden;
+    text-align: center;
+    transition: .5s;
+}
+
+.container .card:hover .conteudo {
+    top: 150px;
+    height: 250px;
+}
+
+.container .card:hover .caixaImg {
+    top: -100px;
+    scale: .75;
+}
+
+.container .card .conteudo h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: var(--cor);
+}
+
+.container .card .conteudo p {
+  font-size: 1.05rem;
+    color: #333;
+}
+
+.rodape {
+  text-align: center; /* Centraliza horizontalmente */
+  display: flex;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 50px;
+  background-color:#9bf013;
+}
