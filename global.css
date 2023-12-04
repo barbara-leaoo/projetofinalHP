@@ -3,6 +3,7 @@
     margin: 0px;
 }
 
+
 .header--primario {
     background-color:#011C33;
     height: 104px;}
@@ -25,17 +26,24 @@
 
 .head--nav--retangulo{
     background-color: #D9D9D9CC;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height:20px;
     transform: rotate(-45deg);
-    flex-shrink: 0;}
     
+    }  
+    
+.header--primario a:hover{
+        background: rgb(75, 56, 56);
+}
 
 .container--main {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
+
+
 
 .main--image{
     width: 100%;
@@ -46,3 +54,200 @@
     position: absolute;
     margin: 35%;
     }
+
+.container--sobre{
+    background-color: #010103;
+    width: 100%;  
+    margin-top: -4px;
+    padding-top: 15px;
+    
+    
+}
+    
+.container--sobre--titulo{
+    color: #CDBAA5;
+    font-family: Julee;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;   
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;      
+     
+    
+}
+.conteiner--sobre--retangulo {
+    background-color: #744008;
+    width: 20px;
+    height:20px;
+    transform: rotate(-45deg);
+    align-items: center;
+}
+    
+
+.container--geral{
+    display: flex;
+
+}
+        
+.container--sobre--image{  
+    width: 50%;
+    height: 50%;
+    
+
+}    
+
+
+.container--sobre--descricao{
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    padding-right: 15px;   
+    
+}
+h2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head--nav--linha{
+    width: 20%;
+    height: 0px;
+    border: 1px solid #744008;
+    margin-top: 10px;
+    
+}
+    
+.container--personagens{
+    background-color: #010103;
+    width: 100%;
+    height: 800px;
+    }
+
+.container--personagem-titulo {
+    color: #CDBAA5;
+    font-family: Julee;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;   
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    }  
+
+.container--personagens--images{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    position: relative;
+}    
+
+    .container--personagens--1{
+        position: absolute;
+        left: 215px;
+    }
+    .container--personagens--2{
+        position: absolute;
+        left: 65px;
+        top: 72px;
+    }
+    .container--personagens--3{
+        position: absolute;
+        left: 215px;
+        top: 196px;
+    }
+    .container--personagens--4{
+        position: absolute;
+        left: 65px;
+        top: 288px;
+    }
+    .container--personagens--5{
+        position: absolute;
+        left: 215px;
+        top: 392px;}
+
+
+.container--personagens--main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 100px ;
+    width: 1000px;
+    justify-content: flex-start; 
+   
+}
+.containerLinhas{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 1800px;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+}   
+    .conteiner--sobre--retangulovertical{
+        background-color: #744008;
+        width: 20px;
+        height:20px;
+        transform: rotate(-45deg);
+        }
+
+    .head--nav--linhavertical{    
+        width: 0px;  
+        height: 50%;      
+        border: 1px solid #744008;
+        display: flex;
+       }
+
+.container--personagem--descricao{
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-left: 900px;}
+
+.container--casas{
+    display: flex;
+    background-color: #010103;
+    width: 100%;
+    height: 100px;
+}
+
+
+.container-casas-image{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.casas-imagem-title{
+    justify-content: center;
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+button{
+    color: aliceblue;
+    background-color: #052E3A;
+    font-family: Kurale;
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    
+
+}
