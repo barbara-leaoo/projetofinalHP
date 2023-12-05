@@ -9,9 +9,7 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
   min-height: 100vh;
-  background: linear-gradient(to bottom, #070707, rgb(4, 20, 36));
-
-  
+  background: linear-gradient(to bottom, #070707, rgb(4, 20, 36));  
 }
 
 .header--primario {
@@ -86,7 +84,7 @@ body {
 
   .prev, .next {
     position: absolute;
-    top: 25%;
+    top: 45%;
     transform: translateY(-50%);
     background-color: #fcfcfc;
     border: none;

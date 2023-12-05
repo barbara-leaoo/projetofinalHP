@@ -4,39 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Judson&family=Julee&family=Junge&family=Lavishly+Yours&family=Luxurious+Script&display=swap');
+    </style>
     <link rel="stylesheet" href="./mapadomaroto.css">
     <title>MAPA DO MAROTO | HARRY POTTER WORLD</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
+        <div class="header--primario">
+            <nav class="header--primario-nav">
                 <img src="../../images/logo-ww.png" alt="imagem logo hp">
-                <a href="../../index.html">RUA DOS ALFENEIROS</a>
-                <a href="../../pages/becodiagonal/becodiagonal.html">BECO DIAGONAL</a>
-                <a href="../../pages/mapadomaroto/mapadomaroto.html">MAPA DO MAROTO</a>
-                <a href="../../pages/revelio/revelio.html">REVELIO!</a>
-                <a href="../../pages/torneiotribruxo/torneiotribruxo.html">TORNEIO TRIBRUXO</a>
+                <a class="header-nav-item" href="../../index.html">RUA DOS ALFENEIROS</a>
+                <div class="header-nav-ret"></div>
+                <a class="header-nav-item" href=" ../../pages/becodiagonal/becodiagonal.html">BECO DIAGONAL</a>
+                <div class="header-nav-ret"></div>
+                <a class="header-nav-item" href="../../pages/mapadomaroto/mapadomaroto.html">MAPA DO MAROTO</a>
+                <div class="header-nav-ret"></div>
+                <a class="header-nav-item" href="../../pages/revelio/revelio.html">REVELIO!</a>
+                <div class="header-nav-ret"></div>
+                <a class="header-nav-item" href="../../pages/torneiotribruxo/torneiotribruxo.html">TORNEIO TRIBRUXO</a>
             </nav>
         </div>
     </header>
 
 
-    <main>
+    <main class="main-body">
         <section>
-            <h1>Os senhores <br>ALUADO ALMOFADINHAS <br>& <br>RABICHO PONTAS</h1>
-            <!--aqui será duas fontes, dois tamanhos diferentes e duas posições no h1-->
-            <h2>estão orgulhosos em apresentar</h2>
-            <img src="../../images/mapadomaroto-imagem01.png" alt="capa mapa do maroto">
+            <div>
+                <h1 class="titulo-principal1">Os senhores</h1>
+                <div class="titulo-principal2">
+                    <p>ALUADO RABICHO </p>
+                    <p class="titulo-principal2-1">ALMOFADINHAS PONTAS</p>
+                </div>
+                <span class="titulo-principal3">&</span>
+                <!--aqui será duas fontes, dois tamanhos diferentes e duas posições no h1-->
+                <h2 class="titulo-principal4">estão orgulhosos em apresentar</h2>
+            </div>
+            <img class="image-mapa1" src="../../images/mapadomaroto-imagem01.png" alt="capa mapa do maroto">
             <br>
-            <button><img src="../../images/mapadomaroto-imagem02-eujurosolenemente.png"
+            <button class="botao1"><img src="../../images/mapadomaroto-imagem02-eujurosolenemente.png"
                     alt="eu juro solenemente nao fazer nada de bom"></button>
         </section>
         <section>
             <img src="../../images/mapadomaroto-imagem03.png"
                 alt="mapa reino unido com pontos turisticos do mundo de Harry Potter">
-            <h3>Reino Unido</h3>
+            <h3 class="titulo--reinounido">Reino Unido</h3> <br>
             <article> <button>1</button> <img src="../../images/mapadomaroto-pontos01mercadolondres.jpeg"
                     alt="mercado leadenhall">
                 <p>Mercado Leadenhall <br>
@@ -141,10 +155,12 @@
             </article>
         </section>
         <br>
-        <button><img src="../../images/mapadomaroto-imagem04-malfeitofeito.png" alt="malfeito feito"></button>
+        <button><img class="image-botao2" src="../../images/mapadomaroto-imagem04-malfeitofeito.png"
+                alt="malfeito feito"></button>
     </main>
     <br>
-    <footer>Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse Brasil.</footer>
+    <footer class="footer">Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse
+        Brasil.</footer>
 </body>
 
 
