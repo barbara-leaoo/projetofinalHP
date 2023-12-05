@@ -183,7 +183,7 @@
 
 .footer {
     width: 100%;
-    height: 29px;
+    height: 30px;
     flex-shrink: 0;
     background-color: #011C33;
     color: #FFF;
@@ -193,4 +193,5 @@
     font-weight: 400;
     line-height: normal;
     text-align: center;
+
 }
