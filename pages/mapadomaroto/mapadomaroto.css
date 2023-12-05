@@ -36,6 +36,7 @@
 .main-body {
     background-color: #E8D8B6;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .titulo-principal1 {
@@ -48,7 +49,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.5px;
-    font-family: 'Luxurious Script', cursive;
+    font-family: Luxurious Script;
 }
 
 .titulo-principal2 {
@@ -60,5 +61,33 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: 'Judson', serif;
+    font-family: Judson;
+}
+
+.titulo-principal3 {
+    color: #000;
+    font-family: Lavishly Yours;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo-principal4 {
+    color: #000;
+    font-family: Judson;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo-principal5 {
+    color: #000;
+    font-family: Lavishly Yours;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
 }
