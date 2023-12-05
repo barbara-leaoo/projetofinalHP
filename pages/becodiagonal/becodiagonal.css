@@ -1,17 +1,21 @@
 *{
     padding-top: 0px;
     margin: 0px;
+    
 }
 
 .header--primario {
     background-color:#011C33;
-    height: 104px;}
+    height: 104px;
+    
+}
 
 .header--primario--nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    
 } 
 
 .head--nav--item{
@@ -29,7 +33,7 @@
     height: 15px;
     transform: rotate(-45deg);
     flex-shrink: 0;}
-    
+  
 .displayed {
     display: block;
     margin-left: auto;
@@ -41,10 +45,13 @@
     position: relative;
     display: flex;
     overflow: auto;
-    display: block;
+
     margin-left: auto;
-    margin-right: auto }
- }
+    margin-right: auto 
+    
+}
+
+    
 
 .gallery image--nav {
     width: 100%;
@@ -53,6 +60,20 @@
     left: 0;
     flex-shrink: 0;
     object-fit: cover;
-   
     
 }
+
+.casas {
+    float: right;
+    
+}
+
+.rodape {
+    text-align: center; /* Centraliza horizontalmente */
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50px;
+    background-color:#9bf013;
+}
+    
