@@ -193,5 +193,28 @@
     font-weight: 400;
     line-height: normal;
     text-align: center;
+}
 
+.pegadas1 {
+    transition: transform 1s ease;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.pegadas1:hover {
+    transform: translate(25%);
+}
+
+.pegadas2 {
+    transition: transform 1s ease;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.pegadas2:hover {
+    transform: translate(25%);
 }
