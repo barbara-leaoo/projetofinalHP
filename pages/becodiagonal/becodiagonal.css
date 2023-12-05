@@ -4,6 +4,17 @@
     
 }
 
+
+body {
+    
+    min-height: 100vh;
+    background-image: url(/images/fundo\ beco.jpg);
+    
+   
+    
+  }
+    
+
 .header--primario {
     background-color:#011C33;
     height: 104px;
@@ -33,6 +44,8 @@
     height: 15px;
     transform: rotate(-45deg);
     flex-shrink: 0;}
+    
+       
   
 .displayed {
     display: block;
@@ -50,6 +63,10 @@
     margin-right: auto 
     
 }
+
+
+
+
 
     
 
