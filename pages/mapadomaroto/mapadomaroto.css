@@ -17,7 +17,7 @@
 
 .header-nav-item {
     color: #FFF;
-    font-family: Julee;
+    font-family: 'Julee', cursive;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -39,11 +39,26 @@
 }
 
 .titulo-principal1 {
+    width: 263px;
+    height: 57px;
+    flex-shrink: 0;
     color: #000;
-    font-family: Luxurious Script;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.5px;
+    font-family: 'Luxurious Script', cursive;
+}
+
+.titulo-principal2 {
+    width: 526px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Judson', serif;
 }
