@@ -40,7 +40,6 @@
 }
 
 .titulo-principal1 {
-    width: 263px;
     height: 57px;
     flex-shrink: 0;
     color: #000;
@@ -50,10 +49,11 @@
     line-height: normal;
     letter-spacing: 2.5px;
     font-family: Luxurious Script;
+    text-align: center;
+    padding-top: 85px;
 }
 
 .titulo-principal2 {
-    width: 526px;
     height: 40px;
     flex-shrink: 0;
     color: #000;
@@ -62,27 +62,41 @@
     font-weight: 400;
     line-height: normal;
     font-family: Judson;
+    padding-top: 6px;
+    word-spacing: 100px;
+    position: relative;
+    left: 35px;
 }
 
-.titulo-principal3 {
+.titulo-principal2-1 {
+    height: 40px;
+    flex-shrink: 0;
     color: #000;
-    font-family: Lavishly Yours;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.titulo-principal4 {
-    color: #000;
-    font-family: Judson;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: Judson;
+    padding-top: 6px;
+    word-spacing: 80px;
+    position: relative;
+    right: 70px;
 }
 
-.titulo-principal5 {
+
+.titulo-principal3 {
+    color: #000;
+    font-family: Lavishly Yours;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    padding-left: 50px;
+    position: relative;
+    top: -50px;
+}
+
+.titulo-principal4 {
     color: #000;
     font-family: Lavishly Yours;
     font-size: 48px;
@@ -90,4 +104,34 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.4px;
+    position: relative;
+    top: -57px;
+}
+
+.image-mapa1 {
+    width: 656px;
+    height: 641px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+.botao1 {
+    width: 763px;
+    height: 66px;
+    background-color: #E8D8B6;
+    border: none;
+    margin-top: 77px;
+}
+
+.titulo--reinounido {
+    width: 193px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lavishly Yours;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
 }
