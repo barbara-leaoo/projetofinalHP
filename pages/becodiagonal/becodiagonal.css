@@ -53,8 +53,8 @@ body {
     margin-right: auto }
 
  .gallery {
-    width: 36rem;
-    height: 23rem;
+    width: 60rem;
+    height: 30rem;
     position: relative;
     display: flex;
     overflow: auto;
