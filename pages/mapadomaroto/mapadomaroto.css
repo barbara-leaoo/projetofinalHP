@@ -178,3 +178,17 @@
     left: 50%;
     transform: translate(-50%);
 }
+
+.footer {
+    width: 100%;
+    height: 29px;
+    flex-shrink: 0;
+    background-color: #011C33;
+    color: #FFF;
+    font-family: Junge;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
