@@ -121,10 +121,10 @@
     background-color: #E8D8B6;
     border: none;
     margin-top: 77px;
+    margin-bottom: 77px;
 }
 
 .titulo--reinounido {
-    width: 193px;
     height: 57px;
     flex-shrink: 0;
     color: #000;
@@ -134,4 +134,87 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    position: relative;
+    top: -180px;
+    left: -430px;
+}
+
+.botao1 {
+    cursor: pointer;
+}
+
+.button--ponto {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: Junge;
+    position: relative;
+    /*aqui pensei em colocar cada botão dentro da imagem no mapa, nos seus respectivos números, e aí quando clicasse apareceria a informação no local clicado, nao sei se isso se faz com o css ou js*/
+}
+
+.images--ponto {
+    border-radius: 10%;
+    width: 700px;
+    height: auto;
+}
+
+.texto--ponto-titulo {
+    font-family: Junge;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto--ponto-box {
+    font-family: Junge;
+    font-size: 22px;
+    border: 1px inset;
+    padding: 20px;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #011C33;
+    color: #FFF;
+    font-family: Junge;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.pegadas1 {
+    transition: transform 1s ease;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.pegadas1:hover {
+    transform: translate(25%);
+}
+
+.pegadas2 {
+    transition: transform 1s ease;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.pegadas2:hover {
+    transform: translate(25%);
 }
