@@ -5,9 +5,6 @@
 }
 
 body {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   min-height: 100vh;
   background: linear-gradient(to bottom, #070707, rgb(4, 20, 36));  
 }
@@ -44,11 +41,12 @@ body {
     background: rgb(75, 56, 56);
   }
   
-
-.vira__tempo{
-  margin-top: 5%;
-  margin-left: 600px;
-}
+.vira__tempo-container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-top: 1%; /* Ajuste conforme necessário */
+  }
 
 .novo-background {
   color: white;
@@ -56,9 +54,9 @@ body {
 
 .img__filme {
     transition: opacity 0.3s ease-in-out;/* Adiciona transição suave */
-    width: 200px;
-    height: 250px;
-    margin: 50px 10px 0;
+    /* width: 200px; */
+    height: 340px;
+    margin: 30px 5px 0;
     border-radius: 1rem;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;/* Adiciona transições suaves */
     border: 2px solid transparent /* Define uma borda transparente inicial */
@@ -70,17 +68,16 @@ body {
     border-color: #968423; /* Adiciona uma borda quando o mouse passa por cima */
 }
 
-.filmes-container {
-    overflow: hidden; /* Esconde o conteúdo que ultrapassa */
-    width: 100%; /* Largura máxima para o contêiner */
-    position: relative;
-  }
+
   
   .filmes {
-    display: flex; /* Usa flexbox para posicionar as imagens */
+      display: flex;
+      justify-content: space-between;
+      /* gap: 10px; */
+      /* align-items: center; Alinha os itens verticalmente ao centro */
+      flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */    
     transition: transform 0.5s ease; /* Adiciona uma transição suave */
-    /*max-width: 10000px;  Largura máxima do carrossel */
-  }
+    }
 
   .prev, .next {
     position: absolute;
@@ -104,7 +101,10 @@ body {
   }
 
   .filmes__item {
-    text-align: center;
+    flex: 0 0 calc(25% - 20px); /* Calcula 25% da largura menos o espaço entre os filmes */
+  text-align: center; /* Centraliza o conteúdo dentro de cada item */
+  margin-bottom: 5px; /* Espaço abaixo de cada filme */
+    /* text-align: center; */
   
   }
 
@@ -113,11 +113,11 @@ body {
     font-size: 14px;
   }
 
-  .img__revelio{
-    margin-left: 600px;
-    /* margin-bottom: 3%; */
-    margin-top: 3%;
-    
+  .revelio-container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-top: 1%; /* Ajuste conforme necessário */
   }
 
   .container {
@@ -138,7 +138,7 @@ body {
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0,.15);
-    background: white;
+    background: rgb(36, 32, 32);
     transition: .5s;
 }
 
@@ -198,7 +198,7 @@ body {
 
 .container .card .conteudo p {
   font-size: 1.05rem;
-    color: #333;
+    color: #fafafa;
 }
 
 .rodape {
