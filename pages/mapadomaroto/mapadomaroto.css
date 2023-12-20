@@ -224,3 +224,13 @@
 body {
     overflow-x: hidden;
 }
+
+.btn-img {
+    cursor: pointer;
+    width: 763px;
+    height: 66px;
+    background-color: #E8D8B6;
+    border: none;
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
