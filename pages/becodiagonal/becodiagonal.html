@@ -4,7 +4,10 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href=./becodiagonal.css>
+
         <style>
                 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
         </style>
@@ -38,94 +41,55 @@
         <!-- Ideia inicial é criar uma carrosel em que uma imagem fique na frente como principal e as outras escondida por tras 
     com um efeito meio opaco, vai ter dois botoes no lado direito e esquerdo pra rolar as imagens, na imagem escolhida 
     será possivel clicar nela e ser redirecionado para o site de compra do produto -->
-        <h1>
+       
+
+       
+        
+                <center>
+
+ <h1>
                 <a href="https://fontmeme.com/pt/fonte-de-harry-potter/"><img class="displayed"
                                 src="https://fontmeme.com/permalink/231201/355b65b01750c2da1e0dfd62d337452f.png"
                                 alt="fonte-de-harry-potter" border="0"></a>
         </h1>
 
-        <section class="gallery">
-                <div class="gallery image--nav">
-                        <a href="https://www.shopharrypotter.com.br/caneca-3d-harry-potter"> <img
-                                        src="../../images/caneca-vm.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/capa-harry-potter-grifinoria"><img
-                                        src="../../images/capa-vm.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/funko-pop-harry-potter-chapeu-seletor-21"> <img
-                                        src="../../images/funkopop-vm.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/cachecol-harry-potter-lettering-grifinoria"> <img
-                                        src="../../images/cachecol-vm.jpg" width="275" height="325"></a>
 
+<div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="casas">
-                        <img src="../../images/grifinoria.png" alt="brasão grifinoria">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <img src="/images/caneca-az.jpg" height="500px" width="400px" alt="">
+                
+                    
+                  </div>
+                  <div class="carousel-item"> <img src="/images/almofada-az.jpg" height="500px" width="400px" alt="">
+                    
+                  </div>
+                  <div class="carousel-item"> <img src="/images/cachecol-vd.png" height="500px" width="400px" alt="">
+                    
+                  </div>
                 </div>
-        </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>            
+                </center>
+                
+        
 
-
-
-        <section class="gallery">
-                <div class="gallery image--nav">
-                        <a href="https://www.shopharrypotter.com.br/mousepad-harry-potter-lufa-lufa"><img
-                                        src="../../images/mousepad-am.jpg" width="275" height="325"></a>
-                        <a
-                                href="https://www.shopharrypotter.com.br/camiseta-unissex-harry-potter-lufa-lufa-brasao-classico-amarelo"><img
-                                        src="../../images/camisa-am.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/meia-cano-alto-listras-lufa-lufa"><img
-                                        src="../../images/meia-am.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/cachecol-harry-potter-lettering-lufa-lufa"><img
-                                        src="../../images/cachecol-am.jpg" width="275" height="325"></a>
-                </div>
-
-                <div class="casas">
-
-                        <img src="../../images/lufa lufa.png" alt="brasão lufalufa">
-                </div>
-
-        </section>
-
-
-        <section class="gallery">
-                <div class="gallery image--nav">
-                        <a href="https://www.shopharrypotter.com.br/almofada-harry-potter-corvinal-sabedoria"> <img
-                                        src="../../images/almofada-az.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/aplique-pop-socket-corvinal-quadribol"><img
-                                        src="../../images/popsocket-az.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/caneca-harry-potter-lettering-corvinal"><img
-                                        src="../../images/caneca-az.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/flamula-harry-potter-corvinal"><img
-                                        src="../../images/flamula-az.jpg" width="275" height="325"></a>
-
-                </div>
-                <div class="casas">
-                        <img src="../../images/corvinal.png" alt="brasão cornival">
-                </div>
-
-        </section>
-
-
-
-        <section class="gallery">
-                <div class="gallery image--nav"> <a
-                                href="https://www.shopharrypotter.com.br/bone-harry-potter-quadribol-sonserina"> <img
-                                        src="../../images/bone-vd.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/trico-harry-potter-sonserina"> <img
-                                        src="../../images/trico-vd.png" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/capa-de-notebook-harry-potter-sonserina-orgulho">
-                                <img src="../../images/capanot-vd.jpg" width="275" height="325"></a>
-                        <a href="https://www.shopharrypotter.com.br/cachecol-harry-potter-casas-sonserina"> <img
-                                        src="../../images/cachecol-vd.png" width="275" height="325"></a>
-                </div>
-
-                <div class="casas">
-                        <img src="../../images/sonserina.png" alt="brasao sonserina">
-                </div>
-
-        </section>
-
-
-        <br>
         <footer class="rodape">Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse
                 Brasil.</footer>
+
 </body>
+
 
 </html>
