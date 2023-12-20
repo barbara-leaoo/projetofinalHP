@@ -13,6 +13,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    gap: 10px;
 }
 
 .header-nav-item {
@@ -192,7 +193,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .pegadas1 {
@@ -217,4 +219,8 @@
 
 .pegadas2:hover {
     transform: translate(25%);
+}
+
+body {
+    overflow-x: hidden;
 }

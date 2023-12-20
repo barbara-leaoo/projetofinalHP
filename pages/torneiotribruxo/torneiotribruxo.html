@@ -4,42 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="torneiotribuxo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+    </style>
     <title>TORNEIO TRIBRUXO | HARRY POTTER WORLD</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
-                <img src="../../images/logo-ww.png" alt="imagem logo hp">
-                <a href="../../index.html">RUA DOS ALFENEIROS</a>
-                <a href="../../pages/becodiagonal/becodiagonal.html">BECO DIAGONAL</a>
-                <a href="../../pages/mapadomaroto/mapadomaroto.html">MAPA DO MAROTO</a>
-                <a href="../../pages/revelio/revelio.html">REVELIO!</a>
-                <a href="../../pages/torneiotribruxo/torneiotribruxo.html">TORNEIO TRIBRUXO</a>
+        <div class="header--primario">
+            <nav class="header--primario--nav">
+                <img class="image--nav" src="/images/logo-ww.png" alt="imagem logo hp">
+                <a class="head--nav--item" href="/index.html">RUA DOS ALFENEIROS</a>
+                <div class="head--nav--retangulo"></div>
+                <a class="head--nav--item" href="/pages/becodiagonal/becodiagonal.html">BECO DIAGONAL</a>
+                <div class="head--nav--retangulo"></div>
+                <a class="head--nav--item" href="/pages/mapadomaroto/mapadomaroto.html">MAPA DO MAROTO</a>
+                <div class="head--nav--retangulo"></div>
+                <a class="head--nav--item" href="/pages/revelio/revelio.html">REVELIO!</a>
+                <div class="head--nav--retangulo"></div>
+                <a class="head--nav--item" href="/pages/torneiotribruxo/torneiotribruxo.html">TORNEIO TRIBRUXO</a>
             </nav>
         </div>
     </header>
-    <div>
-        <img src="../../images/quiz.png" alt="">
-    </div>
-    <div>
-        <img src="../../images/score00.png" alt="">
-    </div>
-    <div>
-        <section>
-            <article>
-                <h1>Quem é esse personagem?</h1>
-                <img src="../../images/neville-full.png" alt="">
-            </article>
-            <button>Severus Snape</button><br>
-            <button>Draco Malfoy</button><br>
-            <button>Ron Weasley</button><br>
-            <button>Harry Potter</button><br>
-            <button>Neville Longbottom</button><br>
-        </section>
-    </div>
-    <footer>Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse Brasil.</footer>
+    <section class="quiz--head">
+        <div>
+            <img class="quiz--logo" src="../../images/quiz.png" alt="" width="150px">
+        </div>
+        <div>
+            <img class="quiz--score" src="../../images/score00.png" alt="">
+        </div>
+    </section>
+    <section class="quiz--question--box">
+        <div>
+            <img class="question--bg" src="../../images/pergaminho_quiz.png" alt="">
+        </div>
+        <div>
+            <img class="neville_img" src="../../images/neville-full.png" alt="">
+        </div>
+    </section>
+    <section class="quiz--question">
+        <div>
+            <h1 class="question--tittle">Quem é esse personagem?</h1>
+            <button class="question--button">Severus Snape</button><br>
+            <button class="question--button">Draco Malfoy</button><br>
+            <button class="question--button">Ron Weasley</button><br>
+            <button class="question--button">Harry Potter</button><br>
+            <button class="question--button">Neville Longbottom</button><br>
+        </div>
+    </section>
+<footer class="rodape">Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse Brasil.</footer>
 </body>
-
 </html>
