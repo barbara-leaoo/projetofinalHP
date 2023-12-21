@@ -1,5 +1,5 @@
 *{
-  padding-top: 0px;
+  padding-top: 0px ;
   margin: 0px;
   /* box-sizing: border-box; */
 }
@@ -121,12 +121,12 @@ body {
   }
 
   .container {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px 50px;
-    padding: 100px 50px;
+    gap: 100px 10px;
+    padding: 80px;
 }
 
 .container .card {
@@ -138,8 +138,9 @@ body {
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0,0,0,.15);
-    background: rgb(36, 32, 32);
+    background: rgb(22, 22, 22);
     transition: .5s;
+    
 }
 
 .container .card:hover {
