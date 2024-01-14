@@ -32,11 +32,6 @@ const slide = (direction) => {
     });
 };
 
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-
 
 // Função para voltar ao topo da página
 function voltarAoTopo() {
@@ -44,3 +39,9 @@ function voltarAoTopo() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
+
+const imagemMagica = document.getElementById("imagemMagica");
+
+    imagemMagica.addEventListener("click", () => {
+        alert("Bem-vindo ao mundo mágico de Harry Potter!")
+    });

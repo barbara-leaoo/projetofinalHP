@@ -4,18 +4,17 @@
 }
 
 body {
-  /* height: 100vh; */
-  /* width: 100%; */
+  
   min-height: 100vh;
-  /* background-color: #262626; */
   display: grid;
-  /* justify-content: center; */
-  /* align-items: center; */
   flex-wrap: wrap;
-  /* background: linear-gradient(to bottom , #070707, rgb(4, 20, 36)); */
   background: linear-gradient(to bottom right, #222F5B, #000000);}
 
 /* HEADER */
+
+.image--nav {
+  cursor: pointer;
+}
 
 .header--primario {
   background-color: #011C33;
