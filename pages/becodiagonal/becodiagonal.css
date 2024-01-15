@@ -45,7 +45,6 @@ body {
     transform: rotate(-45deg);
     flex-shrink: 0;}
     
-
 .rodape {
     text-align: center; /* Centraliza horizontalmente */
     display: flex;
