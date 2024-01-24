@@ -252,3 +252,7 @@ body {
 .pegadas4:hover {
     transform: translate(-10%);
 }
+
+.esconder {
+    display: none
+}
