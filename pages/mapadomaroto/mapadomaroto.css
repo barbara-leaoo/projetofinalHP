@@ -256,3 +256,7 @@ body {
 .esconder {
     display: none
 }
+
+map {
+    display: inline;
+}
