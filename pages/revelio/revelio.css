@@ -1,44 +1,53 @@
-*{
-  padding-top: 0px ;
+* {
   margin: 0px;
-  /* box-sizing: border-box; */
+  padding: 0px;
 }
 
 body {
+  
   min-height: 100vh;
-  background: linear-gradient(to bottom, #070707, rgb(4, 20, 36));  
+  display: grid;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom right, #222F5B, #000000);}
+
+/* HEADER */
+
+.image--nav {
+  cursor: pointer;
 }
 
 .header--primario {
-  background-color:#011C33;
-  height: 104px;}
+  background-color: #011C33;
+  height: 104px;
+}
 
-.header--primario--nav{
+.header--primario--nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 10px;
-} 
+}
 
-.head--nav--item{
+.head--nav--item {
   color: #FFF;
   font-family: Julee;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
-.head--nav--retangulo{
+.head--nav--retangulo {
   background-color: #D9D9D9CC;
   width: 20px;
   height:20px;
   transform: rotate(-45deg);
-  
-  }  
-  
+  flex-shrink: 0;
+}
+
 .header--primario a:hover{
-      background: rgb(75, 56, 56);
+    background: rgb(75, 56, 56);
   }
   
 .vira__tempo-container {
@@ -48,165 +57,192 @@ body {
     margin-top: 1%; /* Ajuste conforme necessário */
   }
 
-.novo-background {
+.carouselbox {
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+}
+
+.carouselbox img {
+  min-width: 147px;
+  max-width: 147px;
+  height: 200px;
+  background-size: cover;
+  margin: 5px 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  z-index: 2;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.carouselbox img:hover {
+  border-radius: 10px;
+  transform: scale(1.2);
+  z-index: 5;
+  border-color: goldenrod;
+}
+
+.carousel .switchLeft,
+.carousel .switchRight {
   color: white;
+  font-weight: bold;
+  height: 100%;
+  width: 45px;
+  line-height: 250px;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(116, 133, 151, 0.082);
+  font-family: sans-serif;
+  top: 0;
+  border-radius: 10px;
+  z-index: 3;
+  cursor: pointer;
+
 }
 
-.img__filme {
-    transition: opacity 0.3s ease-in-out;/* Adiciona transição suave */
-    /* width: 200px; */
-    height: 340px;
-    margin: 30px 5px 0;
-    border-radius: 1rem;
-    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;/* Adiciona transições suaves */
-    border: 2px solid transparent /* Define uma borda transparente inicial */
+.carousel .switchLeft {
+  position: absolute;
+  left: -50px;
 }
 
-.img__filme:hover {
-    transform: scale(1.2);/*Aumenta o tamanho da imagem quando o mouse passa por cima*/
-    opacity: 0.9;/*Altera a opacidade quando o mouse passa por cima*/
-    border-color: #968423; /* Adiciona uma borda quando o mouse passa por cima */
+.carousel .switchRight {
+  position: absolute;
+  right: -50px;
 }
 
+.movie {
+  position: relative;
 
-  
-  .filmes {
-      display: flex;
-      justify-content: space-between;
-      /* gap: 10px; */
-      /* align-items: center; Alinha os itens verticalmente ao centro */
-      flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */    
-    transition: transform 0.5s ease; /* Adiciona uma transição suave */
-    }
+}
 
-  .prev, .next {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    background-color: #fcfcfc;
-    border: none;
-    color: black;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 30px;
-    border-radius: 1rem;
-  }
-  
-  .prev {
-    left: 0;
-  }
-  
-  .next {
-    right: 0;
-  }
+.movie-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: rgb(208, 211, 17);
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
 
-  .filmes__item {
-    flex: 0 0 calc(25% - 20px); /* Calcula 25% da largura menos o espaço entre os filmes */
-  text-align: center; /* Centraliza o conteúdo dentro de cada item */
-  margin-bottom: 5px; /* Espaço abaixo de cada filme */
-    /* text-align: center; */
-  
-  }
+.movie:hover .movie-title {
+  transform: scale(1.1);
+}
 
-  .filmes__item p {
-    margin-top: 5px;
-    font-size: 14px;
-  }
+/* 2° SECTION  */
 
-  .revelio-container {
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center; /* Alinha verticalmente ao centro */
-    margin-top: 1%; /* Ajuste conforme necessário */
-  }
+.revelio-logo {
+  margin-top: 30px;
+  height: 7vw;
+  width: 100%;
+  text-align: center;
+}
 
-  .container {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px 10px;
-    padding: 80px;
+.revelio-logo img {
+  cursor: help;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px 10px;
+  padding: 80px;
 }
 
 .container .card {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 350px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0,0,0,.15);
-    background: rgb(22, 22, 22);
-    transition: .5s;
-    
+  position: relative;
+  /* display: flex; */
+  justify-content: center;
+  align-items: flex-start;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, .15);
+  background: rgb(22, 22, 22);
+  transition: .5s;
+
 }
 
 .container .card:hover {
-    height: 400px;
+  height: 460px;
 
 }
 
 .container .card .caixaImg {
-    position: absolute;
-    top: 20px;
-    width: 300px;
-    height: 220px;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: .5s;
+  position: absolute;
+  top: 20px;
+  width: 300px;
+  height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: .5s;
 
 
 }
 
 .container .card .caixaImg img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container .card .conteudo {
-    position: absolute;
-    top: 250px;
-    width: 100%;
-    height: 35px;
-    padding: 0 30px;
-    overflow: hidden;
-    text-align: center;
-    transition: .5s;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  height: 35px;
+  padding: 0 30px;
+  overflow: hidden;
+  text-align: center;
+  transition: .5s;
 }
 
 .container .card:hover .conteudo {
-    top: 150px;
-    height: 250px;
+  top: 150px;
+  height: 250px;
+  overflow: visible;
 }
 
 .container .card:hover .caixaImg {
-    top: -100px;
-    scale: .75;
+  top: -50px;
+  scale: .75;
 }
 
 .container .card .conteudo h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 3rem;
-    color: var(--cor);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--cor);
 }
 
 .container .card .conteudo p {
   font-size: 1.05rem;
-    color: #fafafa;
+  color: #fafafa;
 }
 
+/* FOOTER */
+
 .rodape {
-  text-align: center; /* Centraliza horizontalmente */
+  text-align: center;
   display: flex;
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  align-items: center;
   height: 50px;
-  background-color:#9bf013;
+  background-color: #9bf013;
 }
