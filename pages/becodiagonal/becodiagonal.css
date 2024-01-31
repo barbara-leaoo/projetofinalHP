@@ -47,11 +47,8 @@ body {
     
 .rodape {
     text-align: center; /* Centraliza horizontalmente */
-    display: flex;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 50px;
+    height: 30px;
+    position: absolute;
+    bottom:0%;
     background-color:#9bf013;
 }
-
-    

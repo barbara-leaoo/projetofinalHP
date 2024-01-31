@@ -40,22 +40,40 @@ body {
 
 .head--nav--retangulo {
   background-color: #D9D9D9CC;
-  width: 20px;
-  height:20px;
+  width: 15px;
+  height: 15px;
   transform: rotate(-45deg);
   flex-shrink: 0;
 }
 
-.header--primario a:hover{
-    background: rgb(75, 56, 56);
-  }
-  
-.vira__tempo-container {
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente ao centro */
-    align-items: center; /* Alinha verticalmente ao centro */
-    margin-top: 1%; /* Ajuste conforme necessário */
-  }
+.header--primario a {
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.header--primario a:hover {
+  background: rgb(75, 56, 56);
+  /* border-color: goldenrod; */
+}
+
+/* 1° SECTION  */
+
+.vira_tempo-logo {
+  margin-top: 50px;
+  height: 7vw;
+  width: 100%;
+  text-align: center;
+}
+
+.vira_tempo-logo img {
+  cursor: help;
+}
+
+.carousel {
+  height: 250px;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
 
 .carouselbox {
   height: 250px;
@@ -246,3 +264,44 @@ body {
   height: 50px;
   background-color: #9bf013;
 }
+
+/* API */
+
+#livros-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#livros-container li {
+  width: calc(25% - 25px);
+  margin-bottom: 20px;
+  margin: 10px;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+#livros-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; 
+}
+
+
+#livros-container p {
+  margin-top: 10px; 
+  text-align: center;
+  color: rgb(233, 213, 31);
+}
+
+#livros-container .livro-info {
+  margin-top: 5px;
+}
+
+/* .livro-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #e9dd33;
+} */
