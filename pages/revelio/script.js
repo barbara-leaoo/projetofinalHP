@@ -8,7 +8,7 @@ const slide = (direction) => {
     const totalWidth = carouselBox.scrollWidth;
 
     const fullyVisible = Math.floor(visibleWidth / movieWidth) * movieWidth;
-    const partiallyVisible = visibleWidth % movieWidth;
+    // const partiallyVisible = visibleWidth % movieWidth;
     const threshold = totalWidth - fullyVisible;
 
     let newPosition = 0;
@@ -62,8 +62,7 @@ fetch('https://api.potterdb.com/v1/books')
             "Harry Potter and the Goblet of Fire": "Harry Potter e o Cálice de Fogo",
             "Harry Potter and the Order of the Phoenix": "Harry Potter e a Ordem da Fênix",
             "Harry Potter and the Half-Blood Prince": "Harry Potter e o Enigma do Príncipe",
-            "Harry Potter and the Deathly Hallows: Part 1": "Harry Potter e as Relíquias da Morte: Parte 1",
-            "Harry Potter and the Deathly Hallows: Part 2": "Harry Potter e as Relíquias da Morte: Parte 2"
+            "Harry Potter and the Deathly Hallows": "Harry Potter e as Relíquias da Morte",
         };
 
         data.data.forEach(livro => {
