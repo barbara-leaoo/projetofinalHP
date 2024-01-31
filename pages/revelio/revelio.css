@@ -264,3 +264,44 @@ body {
   height: 50px;
   background-color: #9bf013;
 }
+
+/* API */
+
+#livros-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#livros-container li {
+  width: calc(25% - 25px);
+  margin-bottom: 20px;
+  margin: 10px;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+#livros-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; 
+}
+
+
+#livros-container p {
+  margin-top: 10px; 
+  text-align: center;
+  color: rgb(233, 213, 31);
+}
+
+#livros-container .livro-info {
+  margin-top: 5px;
+}
+
+/* .livro-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #e9dd33;
+} */
