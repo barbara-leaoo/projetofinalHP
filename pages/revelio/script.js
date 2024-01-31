@@ -1,5 +1,4 @@
-    (function(){
-    const slide = (direction) => {
+const slide = (direction) => {
     const carouselBox = document.querySelector('.carouselbox');
     const movies = carouselBox.querySelectorAll('img');
     const movieWidth = movies[0].clientWidth + 10;
@@ -31,7 +30,7 @@
         left: newPosition,
         behavior: 'smooth'
     });
-}});
+};
 
 
 // Função para voltar ao topo da página
