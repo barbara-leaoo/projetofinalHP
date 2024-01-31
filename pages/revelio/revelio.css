@@ -40,22 +40,40 @@ body {
 
 .head--nav--retangulo {
   background-color: #D9D9D9CC;
-  width: 20px;
-  height:20px;
+  width: 15px;
+  height: 15px;
   transform: rotate(-45deg);
   flex-shrink: 0;
 }
 
-.header--primario a:hover{
-    background: rgb(75, 56, 56);
-  }
-  
-.vira__tempo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 1%; 
-  }
+.header--primario a {
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.header--primario a:hover {
+  background: rgb(75, 56, 56);
+  /* border-color: goldenrod; */
+}
+
+/* 1° SECTION  */
+
+.vira_tempo-logo {
+  margin-top: 50px;
+  height: 7vw;
+  width: 100%;
+  text-align: center;
+}
+
+.vira_tempo-logo img {
+  cursor: help;
+}
+
+.carousel {
+  height: 250px;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
 
 .carouselbox {
   height: 250px;
