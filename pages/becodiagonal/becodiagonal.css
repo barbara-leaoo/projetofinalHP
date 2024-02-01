@@ -8,7 +8,7 @@
 body {
 
     min-height: 100vh;
-    background-image: url(/projetofinalHP/images/fundo\ beco.jpg);
+    background-image: url(/images/fundo\ beco.jpg);
 
 
 
@@ -49,6 +49,10 @@ body {
 
 .rodape {
     text-align: center;
-    height: 50px;
+    height: 30px;
     background-color: #9bf013;
+}
+
+.img{
+    border-radius: 10px;
 }
