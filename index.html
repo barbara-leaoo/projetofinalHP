@@ -8,6 +8,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Julee&family=Kurale&display=swap');
     </style>
     <link rel="stylesheet" href="global.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
     <title>HARRY POTTER WORLD</title>
 </head>
 
@@ -97,8 +99,7 @@
                         brilhante, amiga próxima de Harry Potter e Ron Weasley, conhecida por sua inteligência e dedicação aos
                         estudos. Ao longo da série, Hermione desempenha um papel vital na resolução de desafios enfrentados pelo
                         trio principal. Sua ética de trabalho, conhecimento enciclopédico e senso de justiça a tornam uma
-                        personagem
-                        distintiva na narrativa.
+                        personagem distintiva na narrativa.
                     </p>    
                 </div>    
         </section>
@@ -116,30 +117,57 @@
             </div>
             
             <div class="container-casas-image">
+                
 
                 <div> <img src="./images/lufa lufa.png" alt="lufa-lufa">
                     <p class="casas-imagem-title">LUFA-LUFA</p>
-                    <button>SAIBA MAIS</button>
+                    <button >SAIBA MAIS</button>
+                    <div  class="mensagem">
+                        <p>Mensagem do Botão lufa lufa</p>
+                        <button class="fecharBotao" onclick="fecharMensagem()">Fechar</button>
+                    </div>
                 </div>
+
                 <div> <img src="./images/sonserina.png" alt="sonserina">
                     <p class="casas-imagem-title">SONSERINA</p>
-                    <button>SAIBA MAIS</button>
+                    <button >SAIBA MAIS</button>
+                    <div  class="mensagem">
+                        <p>Mensagem do Botão sonserina</p>
+                        <button class="fecharBotao" onclick="fecharMensagem()">Fechar</button>
+                    </div>
                 </div>
+
                 <div class="casas-image3"> <img src="./images/corvinal.png" alt="corvinal">
-                    <p class="casas-imagem-title">CORVINAL</p>
-                    <button>SAIBA MAIS</button>
+                    <p >CORVINAL</p>
+                    <button id="btn-corvinal">SAIBA MAIS</button>
+                    <div  class="mensagem">
+                        <p>Mensagem do Botão corvinal</p>
+                        <button class="fecharBotao" onclick="fecharMensagem()">Fechar</button>
+                    </div>
+                    
                 </div>
+                
                 <div class="casas-image4"> <img src="./images/grifinoria.png" alt="grifinoria">
                     <p class="casas-imagem-title">GRIFINORIA</p>
-                    <button>SAIBA MAIS</button>
+                    <button >SAIBA MAIS</button>
+                    <div  class="mensagem">
+                        <p>Mensagem do Botão grifinoria</p>
+                        <button class="fecharBotao" onclick="fecharMensagem()">Fechar</button>
+                    </div>
+
                 </div>
             </div>
+            
         </section>
+
+
 
     </main>
 
 
     <footer>Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse Brasil.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

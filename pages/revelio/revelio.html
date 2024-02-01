@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./revelio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="revelio.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Julee&family=Kurale&display=swap');
+    </style>
+    <script src="../revelio/script.js"></script>
     <title>REVELIO! | HARRY POTTER WORLD</title>
+
 </head>
 
 <body>
     <header>
         <div class="header--primario">
             <nav class="header--primario--nav">
-                <img class="image--nav" src="../../images/logo-ww.png" alt="imagem logo hp">
+                <img class="image--nav" src="../../images/logo-ww.png" alt="imagem logo hp" 
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="?">
                 <a class="head--nav--item" href="../../index.html">RUA DOS ALFENEIROS</a>
                 <div class="head--nav--retangulo"></div>
                 <a class="head--nav--item" href="../../pages/becodiagonal/becodiagonal.html">BECO DIAGONAL</a>
@@ -25,78 +36,66 @@
             </nav>
         </div>
     </header>
-    <main class="novo-background">
+    <main>
         <section>
+            <div class="vira_tempo-logo">
+                <img src="../../images/vira-tempo.png" alt="Vira-Tempo" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Vira-Tempo é um artefato mágico que  permite que o usuário viaje no tempo, voltando algumas horas no passado.">
             </div>
-            <div class="vira__tempo-container">
+            <div class="carousel">
+                <div class="carouselbox">
+                    <div class="movie"> <a href="https://youtu.be/SFzft_2dcV0" target="_blank"> <img
+                                src="../../images/filme1.jpg" alt="Harry Potter e a pedra filosofal 2001"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>a pedra filosofal <br>2001</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/cf0rRYvDuys" target="_blank"><img
+                                src="../../images/filme2.jpg" alt="Harry Potter e a Câmara Secreta 2002"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>a Câmara Secreta <br>2002</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/e02fwhC6DiQ" target="_blank"><img
+                                src="../../images/filme3.png" alt="Harry Potter e o Prisioneiro de Azkaban 2004"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>o Prisioneiro de Azkaban <br>2004</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/RsrRCSbYfcc" target="_blank"><img
+                                src="../../images/filme4.png" alt="Harry Potter e o Cálice de Fogo 2005"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>o Cálice de Fogo <br>2005</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/ZkDCaxUNV3o" target="_blank"><img
+                                src="../../images/filme5.png" alt="Harry Potter e a Ordem da Fênix 2007"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>a Ordem da Fênix <br>2007</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/sG-LDd5IUAk" target="_blank"><img
+                                src="../../images/filme6.jpg" alt="Harry Potter e o Enigma do Príncipe 2009"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>o Enigma do Príncipe <br>2009</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/kmXjPbN-rYU" target="_blank"><img
+                                src="../../images/filme7.png" alt="Harry Potter e as Relíquias da Morte: Parte 1 2010"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>as Relíquias da Morte: <br>Parte 1 2010</span>
+                    </div>
+                    <div class="movie"><a href="https://youtu.be/XS3fRKaapKY" target="_blank"><img
+                                src="../../images/filme8.jpg" alt="Harry Potter e as Relíquias da Morte: Parte 2 2011"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Trailer"></a>
+                        <span class="movie-title">Harry Potter e <br>as Relíquias da Morte: <br>Parte 2 2011</span>
+                    </div>
+                </div>
                 <div>
-                    <img class="vira__tempo" src="../../images/img_viratempo.png" alt="vira tempo">
+                    <a class="switchLeft sliderButton" onclick="slide('left')">◄</a>
+                    <a class="switchRight sliderButton" onclick="slide('right')">►</a>
                 </div>
-            </div>
-                <div class="filmes">
-                    <div class="filmes__item">
-                        <a href="https://youtu.be/SFzft_2dcV0" target="_blank"> <img class="img__filme"
-                                src="../../images/filme1.jpg" alt="Harry Potter e a pedra filosofal 2001"></a>
-                        <p></p>
-                        <p>Harry Potter e
-                        <p></p>a pedra filosofal <p></p>(2001)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <a href="https://youtu.be/cf0rRYvDuys" target="_blank"> <img class="img__filme"
-                                src="../../images/filme2.jpg" alt="Harry Potter e a Câmara Secreta 2002"></a>
-                        <p>Harry Potter e
-                        <p></p>a Câmara Secreta <p></p>(2002)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <img class="img__filme" src="../../images/filme3.png"
-                            alt="Harry Potter e o Prisioneiro de Azkaban 2004">
-                        <p>Harry Potter e
-                        <p></p>o Prisioneiro de Azkaban <p></p>(2004)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <img class="img__filme" src="../../images/filme4.png"
-                            alt="Harry Potter e o Cálice de Fogo 2005">
-                        <p>Harry Potter e
-                        <p></p>o Cálice de Fogo <p></p>(2005)</p>
-                    </div>
-                    <div class="filmes__item">
-
-                        <img class="img__filme" src="../../images/filme5.png"
-                            alt="Harry Potter e a Ordem da Fênix 2007">
-                        <p>Harry Potter e
-                        <p></p>a Ordem da Fênix <p></p>(2007)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <img class="img__filme" src="../../images/filme6.jpg"
-                            alt="Harry Potter e o Enigma do Príncipe 2009">
-                        <p>Harry Potter e
-                        <p></p>o Enigma do Príncipe <p></p>(2009)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <img class="img__filme" src="../../images/filme7.png"
-                            alt="Harry Potter e as Relíquias da Morte: Parte 1 2010">
-                        <p>Harry Potter e
-                        <p></p>as Relíquias da Morte: Parte 1 <p></p>(2010)</p>
-                    </div>
-                    <div class="filmes__item">
-                        <img class="img__filme" src="../../images/filme8.jpg"
-                            alt="Harry Potter e as Relíquias da Morte: Parte 2 2011">
-                        <p>Harry Potter e
-                        <p></p>as Relíquias da Morte: Parte 2 <p></p>(2011)</p>
-
-                        <!-- <button class="prev">&#10094;</button>
-                        <button class="next">&#10095;</button> -->
-                    </div>
-                </div>
-            </div>
         </section>
-
         <section>
-            <div class="revelio-container">
-            <div>
-                <img class="img__revelio" src="../../images/img_revelio.png" alt="revelio">
+            <div class="revelio-logo">
+                <img src="../../images/img_revelio.png" alt="revelio-logo" data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Revelio é um feitiço utilizado para revelar ou expor algo que está oculto, escondido, ou disfarçado por magia.">
             </div>
-        </div>
             <div class="container">
                 <div class="card" style="--cor:#009688;">
                     <div class="caixaImg">
@@ -104,16 +103,11 @@
                     </div>
                     <div class="conteudo">
                         <h2>Bicuço</h2>
-                        <p>A aparência de Bicuço, o
-                            Hipogrifo,
-                            foi
-                            inspirada em vários animais da vida real, incluindo águias douradas e cavalos. Durante as
-                            filmagens,
-                            foram criadas três versões diferentes do querido hipogrifo, cada uma para ser usada por
-                            motivos únicos;
-                            um em pé, outro empinado e um deitado. Nenhum detalhe foi poupado na criação da complicada
-                            criatura
-                            animatrônica, com cada pena sendo tingida individualmente e colada à mão.</p>
+                        <p>A aparência de Bicuço, o Hipogrifo, foi inspirada em vários animais da vida real.
+                            Durante as filmagens foram criadas três versões diferentes,
+                            cada uma para ser usada por motivos únicos: um em pé, outro empinado e um deitado.
+                            Nenhum detalhe foi poupado na criação da criatura, com cada pena sendo tingida
+                            individualmente e colada à mão.</p>
                     </div>
                 </div>
                 <div class="card" style="--cor:#03a9f4;">
@@ -123,10 +117,9 @@
                     <div class="conteudo">
                         <h2>Dobby</h2>
                         <p>Dobby era predominantemente um personagem CGI. Os cineastas passaram por vários processos e
-                            técnicas para criar Dobby
-                            a partir de algo tão simples como uma bola de tênis em um bastão para os atores fazerem
-                            referência no set a um modelo físico em tamanho real e intrincadamente detalhado. Os
-                            cineastas criaram um modelo incrivelmente detalhado do amado elfo doméstico para que os
+                            técnicas para criar Dobby desde
+                            uma bola de tênis em um bastão para os atores fazerem
+                            referência no set a um modelo físico em tamanho real para que os
                             atores soubessem exatamente para onde olhar ao filmar cenas com o personagem CGI.</p>
                     </div>
                 </div>
@@ -136,22 +129,72 @@
                     </div>
                     <div class="conteudo">
                         <h2>Duendes</h2>
-                        <p> Goblins atuam como caixas e funcionários do Banco Mágico de Gringotes. Cada Goblin recebeu
-                            um visual único que retratava sua personalidade por meio de próteses e fantasias. Para a
-                            cena de Gringotes em Harry Potter e as Relíquias da Morte – Parte 2 , foram necessários 140
+                        <p> Cada Goblin recebeu
+                            um visual único que retratava sua personalidade por meio de próteses e fantasias, foram
+                            necessários 140
                             maquiadores de toda a Europa para transformar 60 atores em duendes em apenas quatro horas.
-                            Aproximadamente 1,7 toneladas métricas de silicone foram usadas na criação das próteses
-                            Goblin nos filmes de Harry Potter.</p>
+                            Aproximadamente 1,7 toneladas métricas de silicone foram usadas na criação das próteses.</p>
+                    </div>
+                </div>
+                <div class="card" style="--cor:#24c762;">
+                    <div class="caixaImg">
+                        <img src="../../images/img_aragogue.png" alt="Aragogue">
+                    </div>
+                    <div class="conteudo">
+                        <h2>Aragogue</h2>
+                        <p>Tinha uma envergadura de mais de 5,5 metros.
+                            O cabelo de Aragogue foi feito com diversos materiais, incluindo cerdas de vassouras e
+                            pedaços de coco, cada um inserido individualmente à mão com uma agulha especial.</p>
+                    </div>
+                </div>
+                <div class="card" style="--cor:#f46303;">
+                    <div class="caixaImg">
+                        <img src="../../images/img_becodiagonal.jpg" alt="beco Diagonal">
+                    </div>
+                    <div class="conteudo">
+                        <h2>Beco Diagonal</h2>
+                        <p>Beco Diagonal foi inicialmente criado para Harry Potter e a Pedra Filosofal, depois adaptado
+                            repetidamente
+                            para filmes subsequentes. As paredes mudaram, as fachadas das lojas foram movidas e
+                            edifícios inteiros
+                            foram cuidadosamente ajustados, ligeiramente inclinados para a esquerda ou para a direita.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="--cor:#1b6792;">
+                    <div class="caixaImg">
+                        <img src="../../images/img_florestaproibida.png" alt="Floresta proibida">
+                    </div>
+                    <div class="conteudo">
+                        <h2>Floresta Proibida</h2>
+                        <p> O cenário foi projetado para parecer uma floresta normal vista de fora, tornando-se mais
+                            intimidante e
+                            mágico à medida que você avança. A floresta vista nas telas continuou a crescer a cada
+                            filme, com artistas
+                            cênicos criando cenários de até 180 m de comprimento para Harry Potter e as Relíquias da
+                            Morte – Parte 2 .</p>
                     </div>
                 </div>
 
             </div>
-
+            <!-- <h1>Livros da API PotterDB</h1> -->
+            <div id="livros-container"></div>
         </section>
+
     </main>
+    <button onclick="voltarAoTopo()" id="btnVoltarTopo" title="Voltar ao topo"
+        class="position-fixed bottom-0 end-0 mb-5" style="background-color: goldenrod;">
+        <i class="fas fa-arrow-up fa-2x"></i>
+    </button>
+
     <br>
     <footer class="rodape">Desenvolvido pelo Grupo 02 da turma 50580 do curso de Desenvolvimento Web da CoderHouse
         Brasil.</footer>
-</body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </body>
 
 </html>
