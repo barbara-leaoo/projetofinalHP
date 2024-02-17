@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
 * {
   margin: 0;
@@ -7,9 +8,10 @@
   font-family: 'poppins', sans-serif;
 }
 
-.header--primario {
+header {
     background-color:#011C33;
     height: 104px;
+    width: 1519px;
     
 }
 
@@ -39,18 +41,13 @@
     flex-shrink: 0;
 }
 
-body{
+body {
     background-image: url(../../images/bg_torneio.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     gap: 5px;
-}
-
-body h2 {
-    color: white;
 }
   
 main {
@@ -58,8 +55,8 @@ main {
     padding: 10px;
     border-radius: 10px;
     width: 100%;
-    max-width: 300px;
-    min-height: 200px;
+    max-width: 800px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,8 +86,19 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-items: center;
     background-color: #008CCC;
     color: white;
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finish button {
+    text-align: center;
   }
 
 .rodape {
