@@ -10,7 +10,7 @@
 
 header {
     background-color:#011C33;
-    height: 175px;
+    height: 104px;
     width: 1519px;
     
 }
@@ -19,9 +19,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-top: 10px;    
 } 
 
 .head--nav--item{
