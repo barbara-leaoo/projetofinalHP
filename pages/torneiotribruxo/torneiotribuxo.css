@@ -10,7 +10,7 @@
 
 header {
     background-color:#011C33;
-    height: 104px;
+    height: 175px;
     width: 1519px;
     
 }
@@ -20,6 +20,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     
 } 
 
@@ -49,14 +50,14 @@ body {
     flex-direction: column;
     gap: 5px;
 }
-  
+
 main {
-    background-color: white;
+    background-image: url(../../images/quizpergaminho.png);
     padding: 10px;
     border-radius: 10px;
     width: 100%;
-    max-width: 800px;
-    min-height: 600px;
+    max-width: 1161px;
+    min-height: 756px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +66,7 @@ main {
 .content {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     gap: 10px;
 }
 
@@ -75,6 +76,7 @@ main {
 
 .answers {
     display: flex;
+    align-items: left;
     flex-direction: column;
     gap: 5px;
 }

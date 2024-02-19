@@ -1,11 +1,11 @@
 export default [
     {
-      question: "Qual é o nome completo do personagem principal da série Harry Potter?",
+      question: "Qual é o nome completo de Harry Potter?",
       answers: [
         { option: "Harry Severos Potter", correct: false },
         { option: "Harry Ronald Potter", correct: false },
-        { option: "Harry Thiago Potter", correct: false },
-        { option: "Harry James Potter", correct: true },
+        { option: "Harry Alvo Potter", correct: false },
+        { option: "Harry Thiago Potter", correct: true },
         { option: "Harry Umbridge Potter", correct: false },
       ],
     },
@@ -20,7 +20,7 @@ export default [
         ],
     },
     {
-      question: "Quem é o melhor amigo de Harry Potter em Hogwarts?",
+      question: "Quem é o melhor amigo de Harry em Hogwarts?",
       answers: [
         { option: "Rony Weasley", correct: true },
         { option: "Draco Malfoy", correct: false },
@@ -30,12 +30,12 @@ export default [
       ],
     },
     {
-      question: "Qual é o nome do animal de estimação de Harry Potter?",
+      question: "Qual é o nome do animal de estimação de Harry?",
       answers: [
         { option: "Perebas", correct: false },
         { option: "Edwiges", correct: true },
-        { option: "Bicuço", correct: false },
-        { option: "Madame Nora", correct: false },
+        { option: "Bichento", correct: false },
+        { option: "Madame Norra", correct: false },
         { option: "Naguini", correct: false },
       ],
     },
@@ -43,10 +43,10 @@ export default [
         question: "Quem é o principal vilão na série Harry Potter?",
         answers: [
           { option: "Serevo Snape", correct: false },
-          { option: "Dolores Umbridge", correct: false },
-          { option: "Barto Crouch Jr. ", correct: false },
-          { option: "Sirius Black", correct: false },
-          { option: "Lord Voldemort", correct: false },
+          { option: "Draco Molfoy", correct: false },
+          { option: "Lucius Malfoy", correct: false },
+          { option: "Bellatrix Lestrange", correct: false },
+          { option: "Lord Voldemort", correct: true },
         ],
       },
       {
@@ -62,8 +62,8 @@ export default [
       {
         question: "Qual é a casa em Hogwarts a que pertence Harry Potter?",
         answers: [
-          { option: "Sonserina", correct: true },
-          { option: "Grifinória", correct: false },
+          { option: "Sonserina", correct: false },
+          { option: "Grifinória", correct: true },
           { option: "Corvinal", correct: false },
           { option: "Lufa-Lufa", correct: false },
         ],
