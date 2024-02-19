@@ -164,19 +164,21 @@
 
 .images--ponto {
     border-radius: 10%;
-    width: 700px;
+    width: 600px;
     height: auto;
+    text-align: center;
+
 }
 
 .texto--ponto-titulo {
     font-family: Junge;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
 .texto--ponto-box {
     font-family: Junge;
-    font-size: 22px;
+    font-size: 18px;
     border: 1px inset;
     padding: 20px;
     width: 1000px;

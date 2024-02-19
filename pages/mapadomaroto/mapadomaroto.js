@@ -19,3 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
     informacoes.classList.toggle('esconder');
   });
 });
+
+
+function scrollParaImagem() {
+  const imagemAnchor = document.getElementById('imagem-anchor');
+  imagemAnchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
