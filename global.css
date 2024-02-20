@@ -353,3 +353,12 @@ h2{
     font-family:'Kurale';
     color: aliceblue;
 }
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #9bf013;
+  }
