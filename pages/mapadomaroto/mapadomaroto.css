@@ -188,18 +188,12 @@
 }
 
 .footer {
-    width: 100%;
-    height: 30px;
-    flex-shrink: 0;
-    background-color: #011C33;
-    color: #FFF;
-    font-family: Junge;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #9bf013;
 }
 
 .pegadas1 {
