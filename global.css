@@ -298,7 +298,7 @@ h2{
 /* container descrição personagem */
 .container--personagem--descricao{
     color: #FFF;
-    font-family: Kurale;
+    font-family: 'Kurale';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -307,48 +307,49 @@ h2{
     
     }
 
-.container--casas{
-    display: flex;
-    background-color: #010103;
-    width: 100%;
-    height: 100px;
-}
-
-
 .container-casas-image{
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.casas-imagem-title{
     justify-content: center;
-    color: #FFF;
-    font-family: Kurale;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
+    gap: 200px 50px;
+    
 }
 
-button{
-    color: aliceblue;
-    background-color: #052E3A;
-    font-family: Kurale;
-    font-size: 20px;
-    width: 140px;
-    height: 50px;
-    border: 0px;
-    border-radius: 30px; }
+.container{
+    position: relative;
+    padding-top: 20px;
+    height: 310px;
+    width: 200px;    
+    border: solid 1px #0d0d0d;   
+    transition: 1s;
+    overflow: hidden;
+    cursor: pointer;
+    }
+    .container:hover{
+        height: 600px};
 
-#minhaMensagem {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+.container-mensagem{
+    position: absolute;
+    
+}    
+    
+.container .mensagem {
+        position: absolute;
+        top: 260px;      
+        height: 35px;
+       
+        }
+
+.container .mensagem:hover{
+    height: 250px;
+}
+
+.container .mensagem h2 {
+    font-family:'Kurale';
+    font-size: 40px;
+}
+
+.container .mensagem p {
+    font-family:'Kurale';
+    color: aliceblue;
+}
