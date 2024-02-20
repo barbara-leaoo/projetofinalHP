@@ -149,34 +149,36 @@
 
 .button--ponto {
     border-radius: 50%;
-    width: 30px;
+    width: 160px;
     height: 30px;
     text-align: center;
-    font-size: 18px;
-    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgb(255, 255, 255, 0.4);
     color: #000000;
     border: none;
     cursor: pointer;
     font-family: Junge;
     position: relative;
-    /*aqui pensei em colocar cada botão dentro da imagem no mapa, nos seus respectivos números, e aí quando clicasse apareceria a informação no local clicado, nao sei se isso se faz com o css ou js*/
+    top: -5px
 }
 
 .images--ponto {
     border-radius: 10%;
-    width: 700px;
+    width: 600px;
     height: auto;
+    text-align: center;
+
 }
 
 .texto--ponto-titulo {
     font-family: Junge;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
 .texto--ponto-box {
     font-family: Junge;
-    font-size: 22px;
+    font-size: 18px;
     border: 1px inset;
     padding: 20px;
     width: 1000px;
@@ -255,8 +257,4 @@ body {
 
 .esconder {
     display: none
-}
-
-map {
-    display: inline;
 }
