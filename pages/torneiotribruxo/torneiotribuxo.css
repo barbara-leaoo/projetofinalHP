@@ -47,7 +47,7 @@ body {
     background-image: url(../../images/bg_torneio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 110vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -56,10 +56,12 @@ body {
 
 main {
     background-image: url(../../images/quizpergaminho.png);
+    background-size: cover;
     padding: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     width: 100%;
-    max-width: 1161px;
+    max-width: 100%;
     min-height: 756px;
     display: flex;
     align-items: center;
