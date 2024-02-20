@@ -1,4 +1,4 @@
-function mostrarMensagem() {
+/*function mostrarMensagem() {
     // Oculta todas as mensagens
     var mensagens = document.querySelectorAll('.mensagem');
     mensagens.forEach(function(mensagem) {
@@ -65,4 +65,25 @@ function exibirDados(dados) {
     modalBody1.append(infos1)
     modalBody2.append(infos2)
     modalBody3.append(infos3)
+}*/
+
+function aparecer(idDiv){
+
+    var divsConteudo = document.querySelectorAll('.conteudo');
+        divsConteudo.forEach(function(div) {
+            div.style.display = 'none'
+        });
+
+        var divConteudo = document.getElementById(idDiv);
+        divConteudo.style.display = 'block';
+
 }
+
+
+
+
+    /*/
+ function aparecerDraco(){
+    imagem = document.getElementById("imagem2");
+    imagem.style.display = "block";
+ }*/
