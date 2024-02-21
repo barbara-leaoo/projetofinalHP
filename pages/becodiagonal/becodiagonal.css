@@ -8,8 +8,7 @@
 body {
 
     min-height: 100vh;
-    background-image: url('/images/fundo-beco.jpg');
-    /* background-color: #011C33; */
+    background-image: url("../../images/fundo-beco.jpg");
 }
 
 
